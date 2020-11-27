@@ -5,7 +5,13 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 ![Database Diagram](Images/Diagram.png)
 ## Data Engineering
 1. Use the information you have to create a table [schema](./Images/Diagram.png) for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints.
-2. Import each CSV file into the corresponding SQL table.
+2. Import each CSV file into the corresponding SQL table. Import in this order:
+   1. titles
+   2. departments
+   3. employees
+   4. salaries
+   5. dept_emp
+   6. dep_manager
 #### Data Analysis
 
 Once you have a complete database, do the following:
@@ -32,7 +38,7 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
-   ```sql
+   ```python
    from sqlalchemy import create_engine
    engine = create_engine('postgresql://localhost:5432/<your_db_name>')
    connection = engine.connect()
