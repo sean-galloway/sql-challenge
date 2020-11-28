@@ -48,7 +48,7 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 * If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
 
-2. Create a histogram to visualize the most common salary ranges for employees.  
+2. Create a histogram to visualize the most common salary ranges for employees. Note: the y label in the figure below is getting clipped when I upload it to github. The PNG is fine on my local machine. It reads "Employee Count" by the way.
   
 <img src="Images/SalaryPerEmployee.png" width=410>
 
