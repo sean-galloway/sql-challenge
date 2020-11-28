@@ -50,8 +50,8 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.  
   
-![Salary Range Histogram ](Images/SalaryPerEmployee.png)
+<img src="Images/SalaryPerEmployee.png" width=410>
 
 3. Create a bar chart of average salary by title.  
   
-![Average Salary By Job Title](Images/AverageSalaryByJobTitle.png)
+<img src="Images/AverageSalaryByJobTitle.png" width=410>
