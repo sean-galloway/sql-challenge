@@ -4,7 +4,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 ![Database Diagram](Images/Diagram.png)
 ## Data Engineering
-1. Use the information you have to create a table [schema](./Images/Diagram.png) for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints.
+1. Use the information you have to create a table [schema](./schema.sql) for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints.
 2. Import each CSV file into the corresponding SQL table. Import in this order:
    1. titles
    2. departments
