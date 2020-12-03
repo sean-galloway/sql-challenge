@@ -52,7 +52,7 @@ INNER JOIN employees AS e
 ```sql
 SELECT first_name, last_name, sex
 FROM employees
-WHERE first_name = 'Hercules' and LEFT(last_name, 1) = 'B';
+WHERE first_name = 'Hercules' AND last_name LIKE 'B';
 ```
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 ```sql
